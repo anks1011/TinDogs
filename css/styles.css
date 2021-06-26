@@ -1,0 +1,153 @@
+
+#title
+{
+    background-color: #ff4c68;
+    color: #f6fcfd;
+}
+
+h1
+{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+.nav-item
+{
+    padding: 0 10px;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link
+{
+    font-size: 1.3rem;
+    font-family: "Montserrat-light"
+}
+.download-button
+{
+    margin: 5% 3% 5% 0%;
+}
+.title-image
+{
+    width: 60%; 
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+#features
+{
+    padding: 7% 15%;
+    background-color: #f5f3f3;
+    position: relative;
+}
+.features-box
+{
+    text-align: center;
+    padding: 4.5%;
+}
+p
+{
+    color: #888;
+}
+.icon
+{
+    color: #f1b0a8;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+h2
+{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f8f8f8;
+}
+#testimonials
+{
+    text-align: center;
+    background-color: #f09c91;
+}
+.testimonials-image
+{
+    width: 10%;
+    border-radius: 100%;
+}
+#press
+{
+    background-color: #f09c91;
+    text-align: center;
+}
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item
+{
+    padding: 7% 20%;
+}
+.text-price
+{
+    color: rgb(5, 5, 5);
+}
+
+/* pricing */
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col
+{
+    padding: 3% 2%;
+}
+#cta
+{
+    text-align: center;
+    background-color:  #ff4c68;
+    color:  #f5f1f2;
+    padding: 7% 20%;
+}
+.cta-text
+{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.download-cta
+{
+    padding: 0% 3%;
+    margin: 0% 2%;
+}    
+#footer
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social
+{
+    margin: 20px 10px;
+}
+
+@media (max-width :1020px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position:static;
+        transform: rotate(0);
+    }
+}
